@@ -121,26 +121,31 @@
 ##        print(i)
 ##val(name='satya',phno=1246808532,email='yourname@gmail.com',age=22)
 
-def cal(oper,*n):
-    r=0
-    for i in n:
-        if oper=='+':
-            r+=i
-            print(r)
-        elif oper=='-':
-            r-=i
-            print(r)
-        elif oper=='*':
-            r*=i
-            print(r)
-        elif oper=='/':
-            r/=i
-            print(r)
-        elif oper=='//':
-            r//=i
-            print(r)
-        elif oper=='%':
-            r%=i
-            print(r)
+# def cal(oper,*n):
+#     r=0
+#     for i in n:
+#         if oper=='+':
+#             r+=i
+#             print(r)
+#         elif oper=='-':
+#             r-=i
+#             print(r)
+#         elif oper=='*':
+#             r*=i
+#             print(r)
+#         elif oper=='/':
+#             r/=i
+#             print(r)
+#         elif oper=='//':
+#             r//=i
+#             print(r)
+#         elif oper=='%':
+#             r%=i
+#             print(r)
             
-print(cal('+',10,20,30,40))
+# print(cal('+',10,20,30,40))
+
+def info(name,wishes='Good morning'):
+    print('Hi',name,wishes)
+info('satya')
+info('satya','Good Evening')
