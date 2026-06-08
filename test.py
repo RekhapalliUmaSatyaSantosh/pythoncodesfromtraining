@@ -16,18 +16,23 @@
 ##        del r
 ##        break
 
-n=eval(input())
-d={}
-if isinstance(n,(list,tuple,set,dict)):
-    for i in n:
-        if i not in d:
-            d[i]=1
-        else:
-            d[i]+=1
-else:
-    for i in str(n):
-        if i not in d:
-            d[i]=1
-        else:
-            d[i]+=1
-print(d)
+# n=eval(input())
+# d={}
+# if isinstance(n,(list,tuple,set,dict)):
+#     for i in n:
+#         if i not in d:
+#             d[i]=1
+#         else:
+#             d[i]+=1
+# else:
+#     for i in str(n):
+#         if i not in d:
+#             d[i]=1
+#         else:
+#             d[i]+=1
+# print(d)
+
+a,b=0,1
+for i in range(1,11): 
+    print(a,end=' ')
+    a,b=b,a+b
