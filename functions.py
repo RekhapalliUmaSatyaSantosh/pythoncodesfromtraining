@@ -145,7 +145,14 @@
             
 # print(cal('+',10,20,30,40))
 
-def info(name,wishes='Good morning'):
-    print('Hi',name,wishes)
-info('satya')
-info('satya','Good Evening')
+# def info(name,wishes='Good morning'):
+#     print('Hi',name,wishes)
+# info('satya')
+# info('satya','Good Evening')
+
+def fact(n):
+    if n<=1:
+       return 1
+    else:
+       return n*fact(n-1)
+print(fact(5))
