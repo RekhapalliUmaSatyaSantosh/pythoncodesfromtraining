@@ -32,6 +32,7 @@
 #             d[i]+=1
 # print(d)
 
+#Fibonacci series upto n
 a,b=0,1
 for i in range(1,11): 
     print(a,end=' ')
